@@ -1,2 +1,15 @@
-# Scientific-Court-Gravitational-Waves
-引力波色散效应分析框架
+# 引力波色散效应分析框架
+
+## 项目描述
+基于LIGO-Virgo-KAGRA公开数据的引力波频率依赖传播效应精密探测分析代码。
+
+## 🚀 核心功能
+- 多探测器数据加载与预处理
+- 高低频时间差精确提取（≤1μs分辨率）
+- 盲分析流程避免主观偏差
+- 全维度系统误差量化
+- 色散耦合参数约束计算
+
+## 📦 安装依赖
+```bash
+pip install -r requirements.txt
